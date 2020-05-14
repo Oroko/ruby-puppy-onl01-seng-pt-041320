@@ -11,10 +11,7 @@ class Dog
     @@all
   end
   
-  def self.save
-    
-    @@all << self
-  end
+  
   
   def self.all 
      @@all
@@ -30,7 +27,10 @@ class Dog
     end
   end
   
-  
+  def self.save
+    
+    @@all << self
+  end
   
   
 end
